@@ -1,0 +1,201 @@
+{
+  "Name": "SPARTA AmbiDEC loudspeaker directions.",
+  "Description": "This configuration file was created with the SPARTA AmbiDEC v1.6.2 plug-in. 1 Mar 2020 11:12:12pm",
+  "LoudspeakerLayout": {
+    "Name": "Loudspeaker Directions",
+    "Loudspeakers": [
+      {
+        "Azimuth": -29.99600028991699,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 1,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -60.00400161743164,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 2,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -90.0,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 3,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -119.9960021972656,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 4,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -150.0039978027344,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 5,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -180.0,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 6,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 150.0039978027344,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 7,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 119.9960021972656,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 8,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 90.0,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 9,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 60.00400161743164,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 10,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 29.0,
+        "Elevation": 9.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 11,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 0.0,
+        "Elevation": 0.0,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 12,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -45.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 13,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -90.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 14,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -135.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 15,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -180.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 16,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 135.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 17,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 90.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 18,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 45.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 19,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 0.0,
+        "Elevation": 32.01699829101562,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 20,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": -90.0,
+        "Elevation": 66.66899871826172,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 21,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 180.0,
+        "Elevation": 66.66899871826172,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 22,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 90.0,
+        "Elevation": 66.66899871826172,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 23,
+        "Gain": 1.0
+      },
+      {
+        "Azimuth": 0.0,
+        "Elevation": 66.66899871826172,
+        "Radius": 1.0,
+        "IsImaginary": false,
+        "Channel": 24,
+        "Gain": 1.0
+      }
+    ]
+  }
+}
