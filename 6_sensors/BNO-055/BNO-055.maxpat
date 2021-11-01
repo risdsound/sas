@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 996.0, 176.0, 1145.0, 801.0 ],
+		"rect" : [ 501.0, 176.0, 1145.0, 801.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -274,7 +274,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 597.093457400798798, 216.345794320106506, 55.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "raw data"
 				}
 
@@ -297,7 +296,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 591.093457400798798, 370.065420567989349, 271.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "convert to messages and numbers max caan use"
 				}
 
@@ -345,7 +343,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 716.093457400798798, 328.065420567989349, 117.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "symbol of ascii code"
 				}
 
@@ -516,7 +513,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 209.0, 108.0, 77.0, 22.0 ],
-					"text" : "serial b 9600"
+					"text" : "serial d 9600"
 				}
 
 			}
