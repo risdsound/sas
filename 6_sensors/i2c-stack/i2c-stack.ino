@@ -30,12 +30,20 @@ VCNL4040 proximitySensor;
 #define BNO055_SAMPLERATE_DELAY_MS (100)
 Adafruit_BNO055 bno = Adafruit_BNO055();
 
+<<<<<<< HEAD
+=======
+//
+
+>>>>>>> 990f02d6383a106b657faabfbefac7f90a0ad696
 elapsedMillis msec = 0; // don't change
 
 
 void setup() {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 990f02d6383a106b657faabfbefac7f90a0ad696
   Serial.begin(9600);
 
   if (joystick.begin() == false)
@@ -75,7 +83,11 @@ void setup() {
 void loop() {
 
   // establish a speed limit
+<<<<<<< HEAD
   if (msec >= 20) {
+=======
+  if (msec >= 50) {
+>>>>>>> 990f02d6383a106b657faabfbefac7f90a0ad696
     msec = 0;
 
     // joystick
@@ -171,4 +183,8 @@ void loop() {
     Serial.println(" ");
 
   }
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 990f02d6383a106b657faabfbefac7f90a0ad696

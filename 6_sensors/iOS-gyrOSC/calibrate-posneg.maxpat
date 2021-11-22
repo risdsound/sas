@@ -3,23 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-<<<<<<< HEAD
-			"minor" : 1,
-			"revision" : 11,
-=======
 			"minor" : 2,
 			"revision" : 0,
->>>>>>> 990f02d6383a106b657faabfbefac7f90a0ad696
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-<<<<<<< HEAD
-		"rect" : [ 996.0, 176.0, 1145.0, 801.0 ],
-=======
 		"rect" : [ 501.0, 176.0, 1145.0, 801.0 ],
->>>>>>> 990f02d6383a106b657faabfbefac7f90a0ad696
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,21 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-<<<<<<< HEAD
-=======
 					"id" : "obj-4",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 329.0, 256.0, 265.0, 74.0 ],
-					"text" : "this abstraction:\n1) offsets by a set amount with subtraction\n2) wraps values with first modulo\n3) offsets the negative values into positive range\n4) wraps values with second modulo"
+					"patching_rect" : [ 329.0, 256.0, 303.0, 33.0 ],
+					"text" : "this abstraction offsets by a set amount with subtraction\n(there is no number wrapping with modulos)"
 				}
 
 			}
 , 			{
 				"box" : 				{
->>>>>>> 990f02d6383a106b657faabfbefac7f90a0ad696
 					"format" : 6,
 					"id" : "obj-22",
 					"maxclass" : "flonum",
@@ -84,42 +72,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 105.0, 212.0, 29.5, 22.0 ],
 					"text" : "- 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 105.0, 331.333347320556641, 36.0, 22.0 ],
-					"text" : "% #1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 105.0, 289.0, 32.0, 22.0 ],
-					"text" : "+ #1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 105.0, 246.0, 36.0, 22.0 ],
-					"text" : "% #1"
 				}
 
 			}
@@ -208,14 +160,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -245,22 +190,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
